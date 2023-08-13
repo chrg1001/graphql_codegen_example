@@ -1,0 +1,12 @@
+type User {
+  id: ID!
+  name: String!
+  companies: [Company]!
+}
+
+type Company {
+  id: ID!
+  name: String!
+  description: String!
+  users: [User]!
+}

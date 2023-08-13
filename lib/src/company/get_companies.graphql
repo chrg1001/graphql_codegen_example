@@ -1,0 +1,6 @@
+query getCompanies {
+  listCompany {
+    id
+    name
+  }
+}

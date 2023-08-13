@@ -1,0 +1,19 @@
+name: graphql_codegen_example
+description: A sample command-line application.
+version: 1.0.0
+# repository: https://github.com/my_org/my_repo
+
+environment:
+  sdk: ^3.0.5
+
+# Add regular dependencies here.
+dependencies:
+  graphql: ^5.1.1
+  gql: ^1.0.0
+  # path: ^1.8.0
+
+dev_dependencies:
+  build_runner: ^2.4.6
+  graphql_codegen: 0.13.5
+  lints: ^2.0.0
+  test: ^1.21.0
